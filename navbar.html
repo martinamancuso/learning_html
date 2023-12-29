@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esempio Navbar</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Navbar</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Dropdown</a></li>
+        <li><a aria-disabled="true">Disabled</a></li>
+      </ul>
+      <form>
+        <input type="search" placeholder="Search" />
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+  </header>
+</body>
+
+</html>
+
+<!--
+In alternativa, nel caso in cui si volesse il menu in un'unica riga orizzontale,
+avevo anche pensato di utilizzare il tag <table>:
+
+  <header>
+    <nav>
+      <table>
+        <tr>
+          <td>Navbar</td>
+          <td>Home</td>
+          <td>Link</td>
+          <td>Dropdown</td>
+          <td><a aria-disabled="true">Disabled</a></td>
+          <td> 
+            <form>
+              <input type="search" placeholder="Search" />
+              <button type="submit">Search</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+-->
