@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Lezione HTML</title>
+  <style>
+    label {
+      display: block
+    }
+  </style>
+</head>
+
+<body>
+  <form action="#" method="post">
+    <h2>Form di registrazione</h2>
+    <h4>Dati personali</h4>
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+    </p>
+    <p>
+      <label for="nome_cognome">Nome e Cognome:</label>
+      <input type="text" id="nome_cognome" name="nome_cognome">
+    </p>
+    <p>
+      <label for="data_nascita">Data di nascita:</label>
+      <input type="text" id="data_nascita" name="data_nascita">
+    </p>
+    <p>
+      <label for="numero_telefono">Numero di telefono:</label>
+      <input type="number" id="numero_telefono" name="numero_telefono">
+    </p>
+    <h4>Piani di abbonamento</h4>
+    <label for="piani_abbonamento"></label>
+    <select name="piani_abbonamento" id="piani_abbonamento">
+      <option value="free">Free</option>
+      <optgroup label="Premium">
+        <option value="5">5€</option>
+        <option value="10">10€</option>
+        <option value="15">15€</option>
+      </optgroup>
+    </select>
+    <p>
+      <label for="pro_si_no">Vuoi aggiungere i vantaggi PRO?<br>Se sì, spunta la casella qui sotto!</label>
+      <input type="checkbox" id="pro_si_no" name="pro_si_no">
+    </p>
+    <h4>Dati carta di credito</h4>
+    <label for="numero_carta">Numero carta:</label>
+    <input type="number" id="numero_carta" name="numero_carta">
+    <p>
+      <label for="cvc">CVC:</label>
+      <input type="number" id="cvc" name="cvc">
+    </p>
+    <p>
+      <label for="scadenza_carta">Scadenza carta:</label>
+      <input type="text" id="scadenza_carta" name="scadenza_carta">
+    </p>
+
+    <h4>Fatturazione</h4>
+    <p>
+      <label for="indirizzo_fatturazione">Indirizzo di fatturazione:</label>
+      <input type="text" id="indirizzo_fatturazione" name="indirizzo_fatturazione">
+    </p>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
